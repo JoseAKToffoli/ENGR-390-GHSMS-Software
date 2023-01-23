@@ -1,4 +1,24 @@
 
+  main.py
+    
+    This file contains the master control for the motherhive architecture.
+    It contains an UI that will allow the user to comuniate with the SST
+    machine. 
+    
+    It allows the user to preset a time for runining the monitoring code,
+    as well as an overide option to run the device whenever the user want.
+    It displays the output for the latest diagnosis and an option to clear
+    the last output.
+    
+    REQIRED LIBRARIES:
+        SST*
+        tkinter
+	
+    *SST has library requirements of its own.
+    
+    Jose Antonio Kautau Toffoli 
+    2022-11-18
+    
   SSTV1.0
 
     This is the deployable version of our software for controlling the
